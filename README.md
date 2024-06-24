@@ -19,4 +19,22 @@ O usuário pode realizar um cadastro com seu CPF e dados pessoais ou fazer o log
 
 Ao acessar o assistente, uma janela de conversa será iniciada, permitindo que o usuário informe suas queixas. O assistente analisará essas informações e direcionará a ficha de triagem do paciente para a unidade de saúde mais próxima, conforme o endereço inserido no cadastro. Nesta unidade de saúde, um profissional de saúde será responsável por receber os pedidos de agendamento, avaliar a anamnese realizada pelo assistente e marcar a consulta com a especialidade indicada. Caso o profissional considere a anamnese inconsistente, a consulta será agendada com um clínico geral para uma avaliação mais detalhada.
 
-Após a confirmação do agendamento, o usuário receberá uma notificação com os dados do local, horário da consulta e informações complementares, se necessári
+Após a confirmação do agendamento, o usuário receberá uma notificação com os dados do local, horário da consulta e informações complementares, se necessário.
+
+#Passo a passo para execução do Code:
+
+1º - Baixar os arquivos no Github
+2º - Extrair arquivos da pasta zip
+3º - Executar arquivo: Home.html
+
+Instruções de uso:
+
+1º - Clicar em Login
+2º - Digital e-mail e senha (aleatorio)
+3º - Clicar no botão "Médico"
+4º - Iniciar triagem com assistente
+* Selecionar onde esta sentindo a dor
+* Selecionar sintomas
+* Selecionar tempo
+* Agendar consulta
+* Resultado da especialidade indicada

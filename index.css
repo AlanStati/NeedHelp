@@ -1,0 +1,46 @@
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://i.pinimg.com/originals/17/e2/2a/17e22a60784170f77e7789e4e853ca7d.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+}
+
+.imagem-container {
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+}
+
+.imagem-container img {
+    max-width: 150px; /* Reduzindo o tamanho máximo das imagens para 200px */
+    height: auto;
+    display: block;
+    border-radius: 50px;
+    
+   
+}
+
+.imagem-container button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.imagem-container button:hover {
+    background-color: #0056b3;
+}

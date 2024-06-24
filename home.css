@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('https://img.freepik.com/vetores-premium/abstrato-base-medico-com-padrao-de-hexagonos-conceitos-e-ideias-para-tecnologia-de-saude-inovacao-em-medicina-saude-ciencia-e-pesquisa_120542-444.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 15px;
+    color: #fff;
+}
+
+.container button {
+    background-color: dodgerblue;
+    border: none;
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+.container a {
+        background-color: dodgerblue;
+        border: none;
+        padding: 15px 30px;
+        margin: 10px;
+        border-radius: 10px;
+        font-size: 18px;
+        color: white;
+        cursor: pointer;
+        text-decoration: none;
+}
+
+.container button:hover {
+    background-color: deepskyblue;
+}
